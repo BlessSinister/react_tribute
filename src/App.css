@@ -9,7 +9,7 @@ html {
 .bg-gray {
   width: 100%;
   text-align: center;
-  padding: 0 50px;
+  padding: 0 3.12rem;
 }
 
 h1 {
@@ -18,18 +18,18 @@ h1 {
 
 main {
   text-align: center;
-  height: 700px;
+
   background-color: white;
 }
 
 h2 {
   text-align: center;
-  font-size: 19px;
+  font-size: 1.18rem;
 }
 
 ul {
-  max-width: 550px;
-  margin: 0 auto 50px;
+  max-width: 34.3rem;
+  margin: 0 auto 3.12rem;
   text-align: left;
   line-height: 1.6;
 
@@ -38,18 +38,34 @@ ul {
 li {
 
   line-height: 1.6;
-  width: 550px;
+  width: 34.37rem;
 
 }
 
 .epig {
   font-style: italic;
   text-align: left;
-  max-width: 550px;
-  margin: 0 auto 50px;
+  max-width: 34.37rem;
+  margin: 0 auto 3.12rem;
 }
 
 footer {
-  padding-bottom: 57px;
+  padding-bottom: 3.56rem;
   text-align: center;
+}
+
+@media screen and (max-width:576px) {
+  main {
+    height: 20.31rem;
+  }
+
+  li {
+    width: 23.37rem;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:576px) {
+  main {
+    height: 25.31rem;
+  }
 }
